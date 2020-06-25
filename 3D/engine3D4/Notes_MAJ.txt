@@ -1,0 +1,12 @@
+En cours d'intégration :
+
+-Backface culling
+-Frustrum culling
+
+Intégré :
+
+-Camera
+-Rotation des objets
+-Rendu fil de fer / face pleines
+-Algorithme du peintre réoptimisé
+-Chargement de modèles au format OBJ

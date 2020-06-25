@@ -1,0 +1,42 @@
+#colisions environnement
+       _
+255 =>  |
+
+254 => _|
+
+253 => |_
+
+255, X, 255  => air oû X indique l'opacité du décor
+255, X, 254
+255, X, 253
+0, 0, 0,       => solide
+
+0, 0, 10    => glissement vers bas
+0, 0, 5     => glissement vers haut
+0, 10, 0    => glissement vers droite
+0, 5, 0     => glissement vers gauche
+
+0, 10, 10   => glissement vers bas:droite
+0, 5, 10    => glissement vers bas:gauche
+0, 10, 5    => glissement vers haut:droite
+0, 5, 5     => glissement vers haut:gauche
+
+#colision objet déplacable (à remettre en question)
+
+255, 0, 10    => deplacement vers bas
+255, 0, 5     => deplacement vers haut
+255, 10, 0    => deplacement vers droite
+255, 5, 0     => deplacement vers gauche
+
+255, 10, 10   => deplacement vers bas:droite
+255, 5, 10    => deplacement vers bas:gauche
+255, 10, 5    => deplacement vers haut:droite
+255, 5, 5     => deplacement vers haut:gauche
+
+#zone d'activation
+
+0, X, 255
+0, X, 254
+0, X, 253
+
+

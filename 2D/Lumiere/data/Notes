@@ -1,0 +1,9 @@
+light1 pos = (45,87)
+light2 pos = (33,87)
+light3 pos = (201,87)
+
+murB ORTHO = 196, 87
+       ISO = 197, 14
+
+murH ORTHO = 255, 87
+        ISO = 197, 0

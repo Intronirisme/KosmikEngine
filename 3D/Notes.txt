@@ -1,0 +1,18 @@
+orient = (orientX, orientY, orientZ)
+
+vXy = rotatY((1,0,0), orientY)
+vXz = rotatZ((1,0,0), orientZ)
+
+vX = (vXy[0]*vXz[0], vXz[1], vXy[2])
+
+
+vYx = rotatX((0,1,0), orientX)
+vYz = rotatZ((0,1,0), orientZ)
+
+vY = (vYz[0], vYx[1]*vYz[1], vYx[2])
+
+
+vZx = rotatX((0,0,1), orientX)
+vZy = rotatY((0,0,1), orientY)
+
+vZ = (vZy[0], vZx[1], vZx[2]*vZy[2])
